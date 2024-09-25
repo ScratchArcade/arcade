@@ -13,7 +13,7 @@ esptool.py --chip auto --port [PORT] write_flash -z 0 arcade.v0.9_mpy_v1.23.0.bi
 ```python
 # io_config.py
 #
-# 显示屏 io 口配置
+# 显示屏 GPIO 默认配置
 LCD = {
     # 显示屏背光
     "backlight": 21,
@@ -29,11 +29,13 @@ LCD = {
     "reset": 46,
     # 显示屏旋转，可用值【0 - 3】：0 和 2 是竖屏，1 和 3 是横屏
     "rotation": 3,
+    # 显示屏颜色反转
+    "inversion": True,
     # 显示屏颜色字节高低位交换，部分屏幕需要交换才能正常显示颜色
     "swap_color_bytes": True,
 }
 
-# 按键 io 口配置
+# 按键 GPIO 默认配置
 Keys = {
     "up": 16,
     "right": 15,
