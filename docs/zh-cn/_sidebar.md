@@ -1,0 +1,6 @@
+- [介绍](/zh-cn/intro.md)
+- [硬件细节](/zh-cn/details.md)
+- [图片和视频](/zh-cn/gallery.md)
+- [操作手册](/zh-cn/os.md)
+- [免费教程](/zh-cn/tutorial.md)
+- [课程](/zh-cn/course.md)
