@@ -47,6 +47,13 @@ Keys = {
     "x": 9,
     "y": 4,
 }
+
+# 声音默认配置
+Sound = {
+    "sck": 41,
+    "ws": 42,
+    "data": 1,
+}
 ```
 
 可以使用 `mpremote` 命令行工具或者 [Arduino Lab for MicroPython](https://labs.arduino.cc/en/labs/micropython)、Thonny 等软件将文件传入。
