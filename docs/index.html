@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css" />
-    <link rel="stylesheet" href="//unpkg.com/@sujaykumarh/docsify-plugin-footer/dist/plugin.min.css" />
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@sujaykumarh/docsify-plugin-footer/dist/plugin.min.css"
+    />
     <script>
       if (
-        location.protocol !== 'https:'
-        && location.hostname !== 'hostname'
-        && typeof navigator.serviceWorker !== 'undefined'
+        location.protocol !== "https:" &&
+        location.hostname !== "hostname" &&
+        typeof navigator.serviceWorker !== "undefined"
       ) {
-        navigator.serviceWorker.register('sw.js')
+        navigator.serviceWorker.register("sw.js");
       }
     </script>
   </head>
   <body>
     <style>
-      img[src*='?logo'] {
+      img[src*="?logo"] {
         width: 50%;
         position: relative;
         left: 50%;
@@ -44,7 +47,7 @@
         overflow-y: hidden !important;
       }
       code.lang-bash::before {
-        content: '$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$';
+        content: "$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$\a$";
         position: absolute;
         left: 0;
       }
@@ -55,8 +58,8 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: 'Scratch Arcade',
-        coverpage: ['/', '/zh-cn/'],
+        name: "Scratch Arcade",
+        coverpage: ["/", "/en/", "/zh-cn/"],
         onlyCover: true,
         loadNavbar: true,
         loadSidebar: true,
@@ -67,54 +70,54 @@
 
         search: {
           maxAge: 86400000,
-          paths: 'auto',
+          paths: "auto",
           placeholder: {
-            '/zh-cn/': '搜索',
-            '/': 'Type to search',
+            "/zh-cn/": "搜索",
+            "/": "Type to search",
           },
           noData: {
-            '/zh-cn/': '找不到结果',
-            '/': 'No Results',
+            "/zh-cn/": "找不到结果",
+            "/": "No Results",
           },
           depth: 2,
           hideOtherSidebarContent: false,
         },
         copyCode: {
           buttonText: {
-            '/zh-cn/': '点击复制',
-            '/': 'Copy to clipboard',
+            "/zh-cn/": "点击复制",
+            "/": "Copy to clipboard",
           },
           errorText: {
-            '/zh-cn/': '错误',
-            '/': 'Error',
+            "/zh-cn/": "错误",
+            "/": "Error",
           },
           successText: {
-            '/zh-cn/': '复制',
-            '/': 'Copied',
+            "/zh-cn/": "复制",
+            "/": "Copied",
           },
         },
         pagination: {
           previousText: {
-            '/zh-cn/': '上一篇',
-            '/': 'PREVIOUS',
+            "/zh-cn/": "上一篇",
+            "/": "PREVIOUS",
           },
           nextText: {
-            '/zh-cn/': '下一篇',
-            '/': 'NEXT',
+            "/zh-cn/": "下一篇",
+            "/": "NEXT",
           },
           crossChapter: true,
           crossChapterText: true,
         },
         customPageFooter: {
-          copyrightYear: '2024',
-          copyrightOwnerName: 'BlockCode Lab',
-          copyrightOwnerLink: 'https://lab.blockcode.fun',
+          copyrightYear: "2024",
+          copyrightOwnerName: "BlockCode Lab",
+          copyrightOwnerLink: "https://lab.blockcode.fun",
         },
         plugins: [
           function (hook, vm) {
             hook.ready(function () {
-              if (vm.route.path === '/') {
-                location.href = '#/zh-cn/';
+              if (vm.route.path === "/") {
+                location.href = "#/zh-cn/";
               }
             });
           },
