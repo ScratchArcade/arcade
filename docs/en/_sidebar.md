@@ -1,0 +1,5 @@
+- [Introductions](/en/intro.md)
+- [Hardware Details](/en/details.md)
+- [Pictures and Videos](/en/gallery.md)
+- [User Manuals](/en/os.md)
+- [Free Tutorials](/en/tutorial.md)
