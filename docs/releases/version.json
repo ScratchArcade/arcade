@@ -3,8 +3,8 @@
   "forcedUpdate": true,
   "download": "{language}/arcade.{version}.bin",
   "hash": {
-    "en": "1b077f79abff4170891c299438e806288e2d5e0f71ccd28c9a96617dd42224e9",
-    "zh-Hans": "f058448ab7edb83d636f233fb4d2bb21c6ab3df7819247b700641404562a453c",
-    "zh-Hant": "e455167810efcdde3ebf9d62abfb4dd004e694082ed3937a0f8c6048ae58de04"
+    "en": "69016abb73a9bb8efefdfe3d61209521159c8064a4c0bafb50115a966f0e2ee3",
+    "zh-Hans": "d3decfe2d0182ffde09269dfe4a3a6c08d29ce704240958d7e65efc9a977ae8f",
+    "zh-Hant": "56fa78ee7b0b2315022ae616ef7bc98ed69e92029051395948a2f9516611c077"
   }
 }
