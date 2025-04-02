@@ -1,10 +1,10 @@
 {
-  "version": "0.9.13",
+  "version": "0.9.14",
   "forcedUpdate": true,
   "download": "{language}/arcade.{version}.bin",
   "hash": {
-    "en": "69016abb73a9bb8efefdfe3d61209521159c8064a4c0bafb50115a966f0e2ee3",
-    "zh-Hans": "d3decfe2d0182ffde09269dfe4a3a6c08d29ce704240958d7e65efc9a977ae8f",
-    "zh-Hant": "56fa78ee7b0b2315022ae616ef7bc98ed69e92029051395948a2f9516611c077"
+    "en": "761b968e754d144395fb22d0b42dae99444ac16296debbfcbff84aabbbc8d03c",
+    "zh-Hans": "c63a3185708648a8a69ca17a1b9b0459d1e5453593d8ac8c0b3d6084c49c42b8",
+    "zh-Hant": "8e495a3f61fc8df2a62c38284d8dc6c93f7b010a88f6cff576cf7f965dd0abaf"
   }
 }
