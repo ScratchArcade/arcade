@@ -15,7 +15,7 @@
         location.hostname !== "hostname" &&
         typeof navigator.serviceWorker !== "undefined"
       ) {
-        navigator.serviceWorker.register("sw.js");
+        // navigator.serviceWorker.register("sw.js");
       }
     </script>
   </head>
@@ -115,7 +115,7 @@
         },
         plugins: [
           function (hook, vm) {
-            hook.ready(function () {
+            hook.mounted(function () {
               if (vm.route.path === "/") {
                 location.href = "#/zh-cn/";
               }
