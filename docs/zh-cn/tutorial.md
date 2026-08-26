@@ -51,35 +51,49 @@
 
 ### 升级固件
 
-同上，用户通过 [BlockCode Playgrounds](https://make.blockcode.fun/) 在线编程工具实现清楚设备中所有作品的功能。选择第五项“升级固件”。
-
-注意：用户在升级的同时，若需要清除设备中所有作品，则选择第六项“还原固件”。后续操作相同。
+用户通过 [BlockCode Playgrounds](https://make.blockcode.fun/) 在线编程工具实现清楚设备中所有作品的功能。选择第五项“升级固件”。
 
 ![upgrade-menu](_media\upgrade-menu.png)
 
-在弹窗中选择“下载”按钮，进入固件发行网站——
+升级时自动获取最新固件，在自动获取固件的时候，升级固件的菜单项不可用，耐心等待即可。
 
 ![upgrade-popup](_media\upgrade-popup.png)
 
+选择串口点击连接。
+
+![upgrade-select](_media\upgrade-select.png)
+
+等待程序升级完成。
+
+![upgrade-success](_media\upgrade-success.png)
+
+### 还原固件
+
+用户在升级的同时，若需要清除设备中所有作品，则选择第六项“还原固件”。
+
+![restore-menu](_media\restore-menu.png)
+
+在弹窗中选择“下载”按钮，进入固件发行网站[https://gitee.com/blockcodelab/arcade-firmware/releases/](https://gitee.com/blockcodelab/arcade-firmware/releases/)。
+
+![restore-popup](_media\restore-popup.png)
+
 选择最新版本，点击后自动下载到本地默认位置。
 
-![upgrade-file](_media\upgrade-file.png)
+![restore-files](_media\restore-files.png)
 
-根据提示操作设备后，选择下载的.bin文件，等待程序升级完成。
+> arcade_lite是开源硬件版固件，arcade是正式版固件（en为英语，zh-Hans为简体，zh-Hant为繁体），用户可自己选择想要的版本。
 
-![upgrade-success](_media\upgrade-success.jpg)
+选择串口点击连接。
+
+![restore-select](_media\upgrade-select.png)
+
+选择下载的文件后，等待固件还原。
+
+![restore-success](_media\upgrade-success.png)
 
 ## 教程
-
-> 8节教程免费领取。
 
 |     | 教程                                      | 介绍                                                                         |
 | --- | ----------------------------------------- | ---------------------------------------------------------------------------- |
 | 1   | [你好 Arcade](/zh-cn/tutorials/tutor1.md) | 认识 Arcade，学习使用 Scratch 编写简单的程序并掌握如何下载程序到硬件中运行。 |
 | 2   | [瓢虫大法师](/zh-cn/tutorials/tutor2.md)  | 制作多角色互动的小游戏，学习硬件按钮的控制程序。                             |
-| 3   | 敬请期待                                  |                                                                              |
-| 4   | 敬请期待                                  |                                                                              |
-| 5   | 敬请期待                                  |                                                                              |
-| 6   | 敬请期待                                  |                                                                              |
-| 7   | 敬请期待                                  |                                                                              |
-| 8   | 敬请期待                                  |                                                                              |
